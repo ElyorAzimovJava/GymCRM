@@ -2,13 +2,14 @@ package com.gym.crm.dao;
 
 import com.gym.crm.model.Training;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
+@Repository
 public class TrainingDaoImpl implements TrainingDao {
     private static final Logger logger = Logger.getLogger(String.valueOf(TrainingDaoImpl.class));
     private final Map<UUID, Object> db;

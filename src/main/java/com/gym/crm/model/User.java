@@ -7,13 +7,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
 public  abstract class User {
     private UUID id;
     private String firstName;
     private String lastName;
     private String username;
+    private String password;
     private Boolean active = true;
 }

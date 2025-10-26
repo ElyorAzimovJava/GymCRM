@@ -1,15 +1,12 @@
 package com.gym.crm.dao;
 
 import com.gym.crm.model.Trainee;
-import com.gym.crm.model.Training;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.UUID;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
 @Repository
